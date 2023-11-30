@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Pregunta 01",
+      "setup": "pip3 install scikit-learn pandas numpy",
+      "run": "python3 tests.py 01",
+      "input": "",
+      "output": "(139,)\r\n(139,)\r\n(139, 1)\r\n(139, 1)",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Pregunta 02",
+      "setup": "pip3 install scikit-learn pandas numpy",
+      "run": "python3 tests.py 02",
+      "input": "",
+      "output": "(139, 10)\r\n-0.7869\r\n69.6029\r\n<class 'pandas.core.series.Series'>\r\n0.629",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Pregunta 03",
+      "setup": "pip3 install scikit-learn pandas numpy",
+      "run": "python3 tests.py 03",
+      "input": "",
+      "output": "0.6192",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Pregunta 04",
+      "setup": "pip3 install scikit-learn pandas numpy",
+      "run": "python3 tests.py 04",
+      "input": "",
+      "output": "R^2: 0.6880\r\nRoot Mean Squared Error: 4.7154",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
